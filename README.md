@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* Use JavaScript create random, secure passwords on request
+* Use JavaScript to create random, secure passwords on request
 * Use DOM manipulation to display secure passwords on click
 
 ## Background
