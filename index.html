@@ -10,13 +10,18 @@
 <body>
   <h1>Secure Password Generator</h1>
   <form>
-    <!--Add input and submit form fields here-->
+    <label for="passwordLength">
+      <input name="passwordLength" id="passwordLength" type="text">
+    </label>
+    <input type="submit">
   </form>
 
-  <output name="result">
-    <!--A generated password should appear here when the form is submitted -->
-  </output>
+  <div>
+    <!--A generated password should appear within <output> when the form is submitted -->
+    <output id="result" />
+  </div>
 
-  <script src="index.js"></script>
+  <script src="index.js" type="text/javascript"></script>
+  <script src="chai.js" type="text/javascript"></script>
 </body>
 </html>

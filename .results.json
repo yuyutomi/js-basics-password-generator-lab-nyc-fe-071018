@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-04-03T15:26:42.603Z",
+    "end": "2018-04-03T15:26:43.419Z",
+    "duration": 816
+  },
+  "tests": [
+    {
+      "title": "has inputs and an output",
+      "fullTitle": "index.html has inputs and an output",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a working submit button",
+      "fullTitle": "index.html has a working submit button",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "has inputs and an output",
+      "fullTitle": "index.html has inputs and an output",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a working submit button",
+      "fullTitle": "index.html has a working submit button",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

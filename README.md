@@ -64,9 +64,13 @@ here is to make sure that each randomized password:
 * Has at least one lowercase letter - [abcdefghijklmnopqrstuvwxyz]
 * Has at least one uppercase letter - [ABCDEFGHIJKLMNOPQRSTUVWXYZ]
 * Has at least one number - [0123456789]
-* Has at least one special character - [ !"#$%&'()\*+,-./:;<=>?@[\\]^\_\`{|}~]
+* Has at least one special character - [ !#$%&()\*+,-./:;<=>?@[\\]^\_\{|}~]
 * Is the length requested by the user
 * Is unique compared to recently generated passwords
+
+Since you _must_ have at least one lowercase and one uppercase letter, one
+number and one special character, any password shorter than four digits will
+not pass the tests.
 
 ### Displaying a Password on the Page
 

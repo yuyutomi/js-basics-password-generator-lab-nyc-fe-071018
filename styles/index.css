@@ -4,6 +4,18 @@ html {
 
 body {
   background-color: white;
-  margin: 50px;
+  margin: 5vw;
+  height: 500px;
   padding: 10px 20px;
+}
+
+div {
+  width: 100%;
+  margin: 5% 0;
+  word-wrap: break-word;
+  height: auto;
+  text-align: center;
+}
+output {
+  font-size: 200%;
 }
