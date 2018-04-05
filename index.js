@@ -7,9 +7,9 @@ const allCharacters = lowercaseLetters
   .concat(numbers)
   .concat(specialCharacters);
 
-(() => {
-  document.addEventListener("submit", handleSubmit);
-})();
+window.addEventListener("load", () => {
+  document.addEventListener('submit', handleSubmit)
+});
 
 function handleSubmit(e) {
   e.preventDefault();

@@ -5,22 +5,22 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2018-04-03T15:26:42.603Z",
-    "end": "2018-04-03T15:26:43.419Z",
-    "duration": 816
+    "start": "2018-04-04T14:11:36.388Z",
+    "end": "2018-04-04T14:11:37.032Z",
+    "duration": 644
   },
   "tests": [
     {
       "title": "has inputs and an output",
       "fullTitle": "index.html has inputs and an output",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a working submit button",
       "fullTitle": "index.html has a working submit button",
-      "duration": 7,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     }
@@ -31,14 +31,14 @@
     {
       "title": "has inputs and an output",
       "fullTitle": "index.html has inputs and an output",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a working submit button",
       "fullTitle": "index.html has a working submit button",
-      "duration": 7,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     }
