@@ -13,17 +13,16 @@ describe("index.html", () => {
 
     setTimeout(function() {
       password = document.querySelector("output").innerText
+
       expect(password).toExist('Test Failed: No text was found in the <output> element');
+      expect(password).toMatch(/[a-z]+/, 'Test Failed: No lowercase letters')
+      expect(password).toMatch(/[A-Z]+/, 'Test Failed: No uppercase letters')
+      expect(password).toMatch(/[0-9]+/, 'Test Failed: No numbers')
+      expect(password).toMatch(/[^A-Za-z0-9]+/, 'Test Failed: No special characters')
 
-      console.log(password);
-      console.log(typeof password);
-      expect(password).toMatch(/[a-z]+/)
-      expect(password).toMatch(/[0-9]+/)
-      expect(password).toMatch(/[A-Z]+/)
-      expect(password).toMatch(/[^A-Za-z0-9]+/)
-      console.log('Excellent! You passed the test!')
+      console.log('Excellent! You created a secure password!')
 
-       }, 5000)
+      }, 5000)
 
   });
 });
