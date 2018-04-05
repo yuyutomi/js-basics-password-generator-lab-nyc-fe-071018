@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* Use JavaScript create random, secure passwords on request
+* Use JavaScript to create random, secure passwords on request
 * Use DOM manipulation to display secure passwords on click
 
 ## Background
@@ -83,4 +83,4 @@ You can approach this problem in any way you choose, but as a suggestion,
 consider breaking down the problem into discrete parts. Each part can be
 written as its a separate, testable function, that are called in a set order
 from within another function. Make sure to actively use logging and debugging
-as you go! Run `rspec` to run the included tests.
+as you go! Run `learn` to run the included tests.
