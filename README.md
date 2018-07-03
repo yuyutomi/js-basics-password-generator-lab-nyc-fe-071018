@@ -39,9 +39,12 @@ Your task in this lab is to build a page, that lets a user choose the password
 length they would like via a form and, upon submission, displays a new, complex
 password.
 
-1. Build a form that lets a user set a password length
+1. Build a form that lets a user set a password length. This form should have two
+inputs, one for entering password length, and one submit button
 2. Write the password creation logic so that uppercase and lowercase letters,
-   numbers and symbols are used in every password generated
+numbers and symbols are used in **every** password generated. Seeing as there
+are four requirements, all generated passwords will have to be at least 4
+characters long.
 3. Display a generated password on the page
 
 Some guidance is provided in the paragraphs below, but ultimately, it is up to
@@ -49,14 +52,14 @@ you to decide how to code the logic for password creation. The tests for this
 lab will be looking at the HTML to check if the passwords created meet the
 criteria we've set, not the process you've written for password creation.
 
-### Building a Form
+#### Building a Form
 
 The opening and closing `<form>` tags are provided in `index.html` to start.
 This form should have just two input elements, one for entering the length of
 the password, and the other for submitting the form. Make sure to add an
 event listener in `index.js` to listen to the `submit` form event.
 
-### Writing the Password Generator Code
+#### Writing the Password Generator Code
 
 There are a number of ways to go about creating a randomized password. The key
 here is to make sure that each randomized password:
@@ -72,12 +75,12 @@ Since you _must_ have at least one lowercase and one uppercase letter, one
 number and one special character, any password shorter than four digits will
 not pass the tests.
 
-### Displaying a Password on the Page
+#### Displaying a Password on the Page
 
-The resulting password should be displayed within the `<output>` tags provided
-on the page.
+Once the form is submitted, the resulting password should be displayed within
+the `<output>` tags provided on the page.
 
-### Suggested Workflow
+#### Suggested Workflow
 
 You can approach this problem in any way you choose, but as a suggestion,
 consider breaking down the problem into discrete parts. Each part can be

@@ -1,5 +1,3 @@
 window.addEventListener("load", () => {
-
-//Add your code here
-
+  //start your code here
 });
