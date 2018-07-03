@@ -16,7 +16,11 @@ function handleSubmit(e) {
   let passwordLength = parseInt(
     document.querySelector("#passwordLength").value
   );
-  if (passwordLength < 4) passwordLength = 4;
+
+  if (passwordLength < 4 || !passwordLength ) passwordLength = 4;
+
+
+
   passwordLength
     ? appendOutput(generatePassword(passwordLength))
     : appendOutput("Please enter a valid password length");
