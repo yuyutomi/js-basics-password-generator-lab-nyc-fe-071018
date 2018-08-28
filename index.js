@@ -10,14 +10,14 @@ window.addEventListener("load", () => {
     event.preventDefault()
     let passwordLength = document.getElementById('passwordLength').value
     // this creates an array out of the string
-    if(passwordLength > 4) {
-      passwordLength = 1
+    if(passwordLength < 4) {
+      passwordLength = 4
     }
     // better to define (use 'let') outside for loop
     let newPassword = ""
     for (let i = 0; i < passwordLength; i++) {
       if (i < passwordLength) {
-        newPassword += lowercharacters[Math.floor(Math.random()* lowercharacters.length)] 
+        newPassword += lowercharacters[Math.floor(Math.random()* lowercharacters.length)]
       }
       newPassword += uppercharacters[Math.floor(Math.random()* uppercharacters.length)]
       newPassword += number[Math.floor(Math.random()* number.length)]
