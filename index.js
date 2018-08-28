@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
         i++
       }
     }
-   
     console.log(newPassword)  
+    outputResult.innerHTML = newPassword
   })
 });
