@@ -19,6 +19,6 @@ window.addEventListener("load", () => {
       newPassword += lowercharacters[Math.floor(Math.random()* lowercharacters.length)] + uppercharacters[Math.floor(Math.random()* uppercharacters.length)] +  number[Math.floor(Math.random()* number.length)] + specialCharacters[Math.floor(Math.random()* specialCharacters.length)]
     }
    
-    console.log(password)  
+    console.log(newPassword)  
   })
 });
